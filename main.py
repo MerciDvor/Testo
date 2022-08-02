@@ -6,6 +6,10 @@ from interactions import CommandContext as CC
 from interactions import ComponentContext as CPC
 
 
+from settings.config import *
+from interactions.ext.wait_for import wait_for, setup,wait_for_component
+
+import logging
 
 
 
