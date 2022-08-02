@@ -77,7 +77,7 @@ def calc(amount:int,rsc:str,tier:str):
 
 @bot.command(   name="pay", 
                 description="calculate worker's payment", 
-                scope = [839662151010353172,712120246915301429], 
+                scope = [957035929787322478], 
                 options=[it.Option( name="job",
                                     description="the worker's job",
                                     type=it.OptionType.STRING,
