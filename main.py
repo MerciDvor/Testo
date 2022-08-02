@@ -4,10 +4,6 @@ import interactions as it
 from interactions import Client, Button, ButtonStyle, SelectMenu, SelectOption, ActionRow
 from interactions import CommandContext as CC
 from interactions import ComponentContext as CPC
-from db_helper import retrieve
-
-from settings.config import *
-from interactions.ext.wait_for import wait_for, setup,wait_for_component
 
 import logging
 
